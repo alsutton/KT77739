@@ -1,0 +1,19 @@
+pluginManagement {
+    includeBuild("gradle-plugins")
+
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+includeBuild("gradle-plugins")
+
+include(":app")

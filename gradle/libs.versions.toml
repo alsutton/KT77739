@@ -1,0 +1,6 @@
+[versions]
+# 2.1.10 here works, 2.1.20 or 2.1.21 fails
+kotlin = "2.1.10"
+
+[libraries]
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
